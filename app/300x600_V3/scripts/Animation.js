@@ -22,9 +22,9 @@ app.Animation = (function () {
 	// --------------------------------------------------------------------------------------
 	// Starts the animation
 	function start() {
-		tl.from(txt2a, .75, {y:"-=100", opacity:0, ease: Sine.easeOut}, "+=1.5")
-		.from(txt2b, 1, {y:"-=100", opacity:0, ease: Sine.easeOut})
-		.from(txt2c, 1, {y:"-=100", opacity:0, ease: Sine.easeOut}, "-=.25")
+		tl.from(txt2a, .75, {y:"-=100", ease: Sine.easeOut}, "+=1.5")
+		.from(txt2b, .75, {y:"-=100", ease: Sine.easeOut}, "-=.25")
+		.from(txt2c, .75, {y:"-=100", ease: Sine.easeOut}, "-=.25")
 		
 	}
 
