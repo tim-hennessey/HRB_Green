@@ -1,0 +1,158 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+.default {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#banner {
+    background: #14BD40;
+    overflow: hidden;
+    width: $banner-width;
+    height: $banner-height;
+    opacity: 0;
+
+    #button-exit {
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+    }
+
+    #border {
+        display: block;
+        width: $banner-width;
+        height: $banner-height;
+        pointer-events: none;
+        outline: solid 1px #000;
+        outline-offset: -1px;
+        z-index: 999;
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    #txt2a-container {
+        position: absolute;
+        top: 173px;
+        left: 0;
+        width: $banner-width;
+        height: 325px;
+        overflow: hidden;
+
+        #grad {
+            // background-color: rgba(255, 255, 255, .5);
+            position: absolute;
+            top: -403px;
+            left: 0;
+        }
+
+        #txt2a {
+            position: absolute;
+            top: -173px;
+            left: 0;
+            clip: rect(0px,300px,230px,0px);
+        }
+    }
+
+    #txt2b-container {
+        position: absolute;
+        top: 218px;
+        left: 0;
+        width: $banner-width;
+        height: 275px;
+        overflow: hidden;
+
+        #grad {
+            // background-color: rgba(255, 255, 255, .5);
+            position: absolute;
+            top: -403px;
+            left: 0;
+        }
+
+        #txt2b {
+            position: absolute;
+            top: -218px;
+            left: 0;
+            clip: rect(230px,300px,270px,0px);
+        }
+    }
+
+    #txt2c-container {
+        position: absolute;
+        top: 263px;
+        left: 0;
+        width: $banner-width;
+        height: 205px;
+        overflow: hidden;
+
+        #grad {
+            // background-color: rgba(255, 255, 255, .5);
+            position: absolute;
+            top: -403px;
+            left: 0;
+        }
+
+        #txt2c {
+            position: absolute;
+            top: -263px;
+            left: 0;
+            clip: rect(270px,300px,320px,0px);
+        }
+    }
+
+    #txt2d-container {
+        position: absolute;
+        top: 308px;
+        left: 0;
+        width: $banner-width;
+        height: 205px;
+        overflow: hidden;
+
+        #grad {
+            // background-color: rgba(255, 255, 255, .5);
+            position: absolute;
+            top: -403px;
+            left: 0;
+        }
+
+        #txt2d {
+            position: absolute;
+            top: -308px;
+            left: 0;
+            clip: rect(320px,300px,365px,0px);
+        }
+    }
+
+    #txt2e-container {
+        position: absolute;
+        top: 352px;
+        left: 0;
+        width: $banner-width;
+        height: 205px;
+        overflow: hidden;
+
+        #grad {
+            // background-color: rgba(255, 255, 255, .5);
+            position: absolute;
+            top: -403px;
+            left: 0;
+        }
+
+        #txt2e {
+            position: absolute;
+            top: -352px;
+            left: 0;
+            clip: rect(365px,300px,600px,0px);
+        }
+    }
+
+}
