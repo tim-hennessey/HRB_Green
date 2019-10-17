@@ -10,6 +10,12 @@ body {
     left: 0;
 }
 
+.grad {
+    position: absolute;
+    top: -403px;
+    left: 0;
+}
+
 #banner {
     background: #14AA40;
     overflow: hidden;
@@ -45,15 +51,8 @@ body {
         top: 225px;
         left: 0;
         width: $banner-width;
-        height: 325px;
+        height: $banner-height;
         overflow: hidden;
-
-        #grad {
-            // background-color: rgba(255, 255, 255, .5);
-            position: absolute;
-            top: -403px;
-            left: 0;
-        }
 
         #txt2a {
             position: absolute;
@@ -68,15 +67,8 @@ body {
         top: 307px;
         left: 0;
         width: $banner-width;
-        height: 275px;
+        height: $banner-height;
         overflow: hidden;
-
-        #grad {
-            // background-color: rgba(255, 255, 255, .5);
-            position: absolute;
-            top: -403px;
-            left: 0;
-        }
 
         #txt2b {
             position: absolute;
@@ -85,28 +77,5 @@ body {
             clip: rect(330px,300px,410px,0px);
         }
     }
-
-    // #txt2c-container {
-    //     position: absolute;
-    //     top: 383px;
-    //     left: 0;
-    //     width: $banner-width;
-    //     height: 205px;
-    //     overflow: hidden;
-
-    //     #grad {
-    //         // background-color: rgba(255, 255, 255, .5);
-    //         position: absolute;
-    //         top: -403px;
-    //         left: 0;
-    //     }
-
-    //     #txt2c {
-    //         position: absolute;
-    //         top: -383px;
-    //         left: 0;
-    //         clip: rect(405px,300px,600px,0px);
-    //     }
-    // }
 
 }

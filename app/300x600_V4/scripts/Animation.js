@@ -8,23 +8,19 @@ app.Animation = (function () {
 	var tl = new TimelineMax();
 	var txt2a = document.getElementById('txt2a');
 	var txt2b = document.getElementById('txt2b');
-	// var txt2c = document.getElementById('txt2c');
 
 	// --------------------------------------------------------------------------------------
 	// set default properties
 	function initialize() {
 		// DO NOT EDIT: reveals banner once loaded
 		t.set(banner, {opacity:1});
-
-		
 	}
 
 	// --------------------------------------------------------------------------------------
 	// Starts the animation
 	function start() {
 		tl.from(txt2a, .75, {y:"-=100", ease: Sine.easeOut}, "+=1.5")
-		.from(txt2b, .75, {y:"-=100", ease: Sine.easeOut}, "-=.25")
-		// .from(txt2c, .75, {y:"-=100", ease: Sine.easeOut}, "-=.25")
+		.from(txt2b, .75, {y:"-=100", ease: Sine.easeOut}, "-=.25");
 		
 	}
 
