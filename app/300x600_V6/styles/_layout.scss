@@ -55,6 +55,60 @@ body {
         background-color: rgba(245, 204, 2, 1);
     }
 
+    #txt1a-container {
+        // background-color: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: $banner-width;
+        height: $banner-height;
+        overflow: hidden;
+
+        #txt1a {
+            transform: translate3d(0, 0, 0.1px);
+            position: absolute;
+            top: -70px;
+            left: 0;
+            clip: rect(0px,300px,138px,0px);
+        }
+    }
+
+    #txt1b-container {
+        // background-color: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        top: 128px;
+        left: 0;
+        width: $banner-width;
+        height: $banner-height;
+        overflow: hidden;
+
+        #txt1b {
+            transform: translate3d(0, 0, 0.1px);
+            position: absolute;
+            top: -128px;
+            left: 0;
+            clip: rect(138px,300px,185px,0px);
+        }
+    }
+
+    #txt1c-container {
+        // background-color: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        top: 173px;
+        left: 0;
+        width: $banner-width;
+        height: $banner-height;
+        overflow: hidden;
+
+        #txt1c {
+            transform: translate3d(0, 0, 0.1px);
+            position: absolute;
+            top: -173px;
+            left: 0;
+            clip: rect(185px,300px,228px,0px);
+        }
+    }
+
     #txt2b-container {
         position: absolute;
         top: 218px;
@@ -62,6 +116,7 @@ body {
         width: $banner-width;
         height: $banner-height;
         overflow: hidden;
+        // opacity:0;
 
         #txt2b {
             transform: translate3d(0, 0, 0.1px);
@@ -79,6 +134,7 @@ body {
         width: $banner-width;
         height: $banner-height;
         overflow: hidden;
+        // opacity:0;
 
         #txt2c {
             transform: translate3d(0, 0, 0.1px);
@@ -96,6 +152,7 @@ body {
         width: $banner-width;
         height: $banner-height;
         overflow: hidden;
+        // opacity:0;
 
         #txt2d {
             transform: translate3d(0, 0, 0.1px);
@@ -113,6 +170,7 @@ body {
         width: $banner-width;
         height: $banner-height;
         overflow: hidden;
+        // opacity:0;
 
         #txt2e {
             transform: translate3d(0, 0, 0.1px);

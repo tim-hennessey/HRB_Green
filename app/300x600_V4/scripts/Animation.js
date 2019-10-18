@@ -5,7 +5,8 @@ app.Animation = (function () {
 
 	var banner = document.getElementById('banner');
 	var t = TweenMax;
-	var tl = new TimelineMax();
+	var tl1 = new TimelineMax({paused:true});
+	var tl2 = new TimelineMax();
 	var txt2a = document.getElementById('txt2a');
 	var txt2b = document.getElementById('txt2b');
 
@@ -19,8 +20,13 @@ app.Animation = (function () {
 	// --------------------------------------------------------------------------------------
 	// Starts the animation
 	function start() {
-		tl.from(txt2a, .75, {y:"-=100", ease: Sine.easeOut}, "+=1.5")
-		.from(txt2b, .75, {y:"-=100", ease: Sine.easeOut}, "-=.25");
+
+		tl1.from(txt2a, .75, {y:"-=100"})
+		.from(txt2b, .75, {y:"-=100"}, "-=.35");
+
+		tl2.to(tl1, 2, {progress:1, ease: Sine.easeOut}, "+=1.5");
+
+
 		
 	}
 

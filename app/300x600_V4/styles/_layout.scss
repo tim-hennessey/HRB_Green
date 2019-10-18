@@ -55,6 +55,7 @@ body {
         overflow: hidden;
 
         #txt2a {
+            transform: translate3d(0, 0, 0.1px);
             position: absolute;
             top: -225px;
             left: 0;
@@ -71,6 +72,7 @@ body {
         overflow: hidden;
 
         #txt2b {
+            transform: translate3d(0, 0, 0.1px);
             position: absolute;
             top: -307px;
             left: 0;
