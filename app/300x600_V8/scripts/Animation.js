@@ -41,12 +41,12 @@ app.Animation = (function () {
 	function start() {
 
 		tl1.from(txt1a, .75, {y:"-=100"})
-		.from(txt1b, .75, {y:"-=100"}, "-=.35")
-		.from(txt1c, .75, {y:"-=100"}, "-=.35")
-		.from(txt2b, .75, {y:"-=100"}, "+=2")
-		.from(txt2c, .75, {y:"-=100"}, "-=.35")
-		.from(txt2d, .75, {y:"-=100"}, "-=.35")
-		.from(txt2e, .75, {y:"-=100"}, "-=.35");
+		.from(txt1b, .75, {y:"-=100"}, "-=.75")
+		.from(txt1c, .75, {y:"-=100"}, "-=.75")
+		.from(txt2b, .75, {x:"-=300"}, "+=2")
+		.from(txt2c, .75, {x:"-=300"}, "-=.75")
+		.from(txt2d, .75, {x:"-=300"}, "-=.75")
+		.from(txt2e, .75, {x:"-=300"}, "-=.75");
 
 		tl2.to(tl1, 3, {progress:1, ease: Sine.easeOut}, "+=.5");
 		
