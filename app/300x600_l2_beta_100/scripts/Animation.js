@@ -26,8 +26,8 @@ app.Animation = (function () {
 		t.set(banner, {opacity:1});
 
 		buttonExit.addEventListener('mouseover', function () {
-            t.to(cta, .25, {backgroundColor: "#3bc0f8"});
-            t.to(cta_txt, .25, {fill: "#262626" });
+            t.to(cta, .25, {backgroundColor: "#005d1f"});
+            t.to(cta_txt, .25, {fill: "#fff" });
         });
 
         buttonExit.addEventListener('mouseout', function () {
