@@ -1,0 +1,84 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+.default {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.grad {
+    position: absolute;
+    top: -403px;
+    left: 0;
+}
+
+#banner {
+    background: #14AA40;
+    overflow: hidden;
+    width: $banner-width;
+    height: $banner-height;
+    opacity: 0;
+
+    #button-exit {
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+    }
+
+    #border {
+        display: block;
+        width: $banner-width;
+        height: $banner-height;
+        pointer-events: none;
+        outline: solid 1px #000;
+        outline-offset: -1px;
+        z-index: 999;
+    }
+
+    #txt1 {
+            transform: translate3d(0, 0, 0.1px);
+            position: absolute;
+            top: 0;
+            left: 0;
+            clip: rect(0px,300px,73px,0px);
+        }
+
+    #txt2-container {
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: 64px;
+        left: 0;
+        width: $banner-width;
+        height: $banner-height;
+        overflow: hidden;
+
+        #txt2 {
+            transform: translate3d(0, 0, 0.1px);
+            position: absolute;
+            top: -64px;
+            left: 0;
+            clip: rect(73px,300px,250px,0px);
+        }
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    #cta {
+        position: absolute;
+        width:133px;
+        height:35px;
+        bottom: 20px;
+        right: 20px;
+        background-color: rgba(245, 204, 2, 1);
+    }
+
+}
