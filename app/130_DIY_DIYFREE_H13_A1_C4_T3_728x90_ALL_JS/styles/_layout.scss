@@ -35,6 +35,34 @@ body {
         z-index: 999;
     }
 
+    #txt1a {
+
+        clip: rect(0px,728px,45px,0px);
+    }
+
+    #grad1a {
+        width: $banner-width;
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -1440px;
+        left: 0;
+        // opacity:0;
+    }
+
+    #txt1b {
+
+        clip: rect(45px,728px,90px,0px);
+    }
+
+    #grad1b {
+        width: $banner-width;
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -1417px;
+        left: 0;
+        // opacity:0;
+    }
+
     #footer {
         background-color: rgba(255, 255, 255, 1);
         position: absolute;

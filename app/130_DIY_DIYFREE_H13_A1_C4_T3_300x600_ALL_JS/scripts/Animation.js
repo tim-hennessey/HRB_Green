@@ -5,8 +5,8 @@ app.Animation = (function () {
 
 	var banner = document.getElementById('banner');
 	var t = TweenMax;
-	var tl1 = new TimelineMax({paused:true});
-	var tl2 = new TimelineMax();
+	var tl1 = new TimelineMax();
+	// var tl2 = new TimelineMax();
 
 	var txt1a = document.getElementById('txt1a');
 	var txt1b = document.getElementById('txt1b');
@@ -42,16 +42,16 @@ app.Animation = (function () {
 	// Starts the animation
 	function start() {
 
-		tl1.from(txt1a, .75, {y:"-=100"})
-		.from(txt1b, .75, {y:"-=100"}, "-=.35")
-		.from(txt1c, .75, {y:"-=100"}, "-=.35")
-		.from(txt1d, .75, {y:"-=100"}, "-=.35")
-		.from(txt1e, .75, {y:"-=100"}, "-=.35")
-		.from(txt1f, .75, {y:"-=100"}, "-=.35")
-		.from(txt1g, .75, {y:"-=100"}, "-=.35")
-		.from(txt1h, .75, {y:"-=100"}, "-=.35");
+		tl1.from(txt1a, .75, {y:"-=100", force3D:true, ease: Sine.easeOut})
+		.from(txt1b, .75, {y:"-=100", force3D:true, ease: Sine.easeOut}, "-=.35")
+		.from(txt1c, .75, {y:"-=100", force3D:true, ease: Sine.easeOut}, "-=.35")
+		.from(txt1d, .75, {y:"-=100", force3D:true, ease: Sine.easeOut}, "-=.35")
+		.from(txt1e, .75, {y:"-=100", force3D:true, ease: Sine.easeOut}, "-=.35")
+		.from(txt1f, .75, {y:"-=100", force3D:true, ease: Sine.easeOut}, "-=.35")
+		.from(txt1g, .75, {y:"-=100", force3D:true, ease: Sine.easeOut}, "-=.35")
+		.from(txt1h, .75, {y:"-=100", force3D:true, ease: Sine.easeOut}, "-=.35");
 
-		tl2.to(tl1, 3, {progress:1, ease: Sine.easeInOut}, "+=.5");
+		// tl2.to(tl1, 3, {progress:1, force3D:true, ease: Sine.easeInOut}, "+=.5");
 		
 	}
 
