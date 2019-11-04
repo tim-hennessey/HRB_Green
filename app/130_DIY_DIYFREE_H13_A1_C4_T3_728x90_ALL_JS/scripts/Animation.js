@@ -9,6 +9,7 @@ app.Animation = (function () {
 
 	var txt1a = document.getElementById('txt1a');
 	var txt1b = document.getElementById('txt1b');
+	var grad1b = document.getElementById('grad1b');
 
 	var cta = document.getElementById('cta');
 	var cta_txt = document.getElementsByClassName('cta_txt');
@@ -19,6 +20,7 @@ app.Animation = (function () {
 	function initialize() {
 		// DO NOT EDIT: reveals banner once loaded
 		t.set(banner, {opacity:1});
+		// t.set(grad1b, {width:600});
 
 		buttonExit.addEventListener('mouseover', function () {
             t.to(cta, .25, {backgroundColor: "#3bc0f8"});

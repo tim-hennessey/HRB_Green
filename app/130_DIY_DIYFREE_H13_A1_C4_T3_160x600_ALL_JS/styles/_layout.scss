@@ -70,8 +70,10 @@ body {
     #grad1a {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -220px;
+        top: -520px;
+        // top: -220px;
         left: 0;
+        width: 300px;
     }
 
     #txt1b {
@@ -83,8 +85,11 @@ body {
     #grad1b {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -201px;
+        top: -481px;
+        // top: -201px;
         left: 0;
+        width: 300px;
+        // opacity: 0;
     }
 
     #txt1c {
@@ -96,34 +101,41 @@ body {
     #grad1c {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -173px;
+        top: -453px;
+        // top: -173px;
         left: 0;
+        width: 300px;
+        // opacity: 0;
     }
 
     #txt1d {
 
-        clip: rect(180px,300px,215px,0px);
+        clip: rect(180px,300px,213px,0px);
         // opacity: 0;
     }
 
     #grad1d {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -144px;
+        top: -424px;
         left: 0;
+        width: 300px;
+        // opacity: 0;
     }
 
     #txt1e {
 
-        clip: rect(215px,300px,240px,0px);
+        clip: rect(213px,300px,240px,0px);
         // opacity: 0;
     }
 
     #grad1e {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -116px;
+        top: -396px;
         left: 0;
+        width: 300px;
+        // opacity: 0;
     }
 
     #txt1f {
@@ -135,8 +147,10 @@ body {
     #grad1f {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -87px;
+        top: -367px;
         left: 0;
+        width: 300px;
+        // opacity: 0;
     }
 
     #txt1g {
@@ -148,8 +162,10 @@ body {
     #grad1g {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -59px;
+        top: -339px;
         left: 0;
+        width: 300px;
+        // opacity: 0;
     }
 
     #txt1h {
@@ -161,8 +177,10 @@ body {
     #grad1h {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -30px;
+        top: -310px;
         left: 0;
+        width: 300px;
+        // opacity: 0;
     }
 
 }
