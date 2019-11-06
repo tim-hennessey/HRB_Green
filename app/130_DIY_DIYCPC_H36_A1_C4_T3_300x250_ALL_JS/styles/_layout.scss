@@ -10,6 +10,15 @@ body {
     left: 0;
     transform: translate3d(0, 0, 0.1px);
 }
+#border {
+        display: block;
+        width: $banner-width;
+        height: $banner-height;
+        pointer-events: none;
+        outline: solid 1px #000;
+        outline-offset: -1px;
+        z-index: 999;
+    }
 
 #banner {
     background: #14AA40;
@@ -25,15 +34,7 @@ body {
         width: 100%;
     }
 
-    #border {
-        display: block;
-        width: $banner-width;
-        height: $banner-height;
-        pointer-events: none;
-        outline: solid 1px #000;
-        outline-offset: -1px;
-        z-index: 999;
-    }
+    
 
     #footer {
         background-color: rgba(255, 255, 255, 1);
@@ -72,6 +73,7 @@ body {
         position: absolute;
         top: -578px;
         left: 0;
+        width: 300px;
     }
 
     #txt1b {
@@ -85,6 +87,7 @@ body {
         position: absolute;
         top: -553px;
         left: 0;
+        width: 300px;
     }
 
     #txt1c {
@@ -98,6 +101,7 @@ body {
         position: absolute;
         top: -520px;
         left: 0;
+        width: 300px;
     }
 
     #txt1d {
@@ -111,6 +115,7 @@ body {
         position: absolute;
         top: -486px;
         left: 0;
+        width: 300px;
     }
 
     

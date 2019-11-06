@@ -10,6 +10,15 @@ body {
     left: 0;
     transform: translate3d(0, 0, 0.1px);
 }
+#border {
+        display: block;
+        width: $banner-width;
+        height: $banner-height;
+        pointer-events: none;
+        outline: solid 1px #000;
+        outline-offset: -1px;
+        z-index: 999;
+    }
 
 #banner {
     background: #14AA40;
@@ -25,15 +34,7 @@ body {
         width: 100%;
     }
 
-    #border {
-        display: block;
-        width: $banner-width;
-        height: $banner-height;
-        pointer-events: none;
-        outline: solid 1px #000;
-        outline-offset: -1px;
-        z-index: 999;
-    }
+    
 
     #footer {
         background-color: rgba(255, 255, 255, 1);
@@ -64,7 +65,7 @@ body {
 
     #txt1a {
 
-        clip: rect(0px,300px,47px,0px);
+        clip: rect(0px,300px,55px,0px);
     }
 
     #grad1a {
@@ -72,45 +73,49 @@ body {
         position: absolute;
         top: -580px;
         left: 0;
+        width: 300px;
     }
 
     #txt1b {
 
-        clip: rect(53px, 300px, 88px, 0px);
+        clip: rect(55px, 300px, 88px, 0px);
         // opacity: 0;
     }
 
     #grad1b {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -555px;
+        top: -546px;
         left: 0;
+        width: 300px;
     }
 
     #txt1c {
 
-        clip: rect(89px, 300px, 118px, 0px);
+        clip: rect(89px, 300px, 116px, 0px);
         // opacity: 0;
     }
 
     #grad1c {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -520px;
+        top: -518px;
         left: 0;
+        width: 300px;
     }
 
     #txt1d {
 
-        clip: rect(123px, 300px, 159px, 0px);
+        clip: rect(116px, 300px, 250px, 0px);
         // opacity: 0;
     }
 
     #grad1d {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -485px;
+        top: -490px;
         left: 0;
+        width: 300px;
     }
 
     

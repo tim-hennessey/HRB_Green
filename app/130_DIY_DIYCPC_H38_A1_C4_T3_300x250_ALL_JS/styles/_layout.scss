@@ -10,6 +10,15 @@ body {
     left: 0;
     transform: translate3d(0, 0, 0.1px);
 }
+#border {
+        display: block;
+        width: $banner-width;
+        height: $banner-height;
+        pointer-events: none;
+        outline: solid 1px #000;
+        outline-offset: -1px;
+        z-index: 999;
+    }
 
 #banner {
     background: #14AA40;
@@ -25,15 +34,7 @@ body {
         width: 100%;
     }
 
-    #border {
-        display: block;
-        width: $banner-width;
-        height: $banner-height;
-        pointer-events: none;
-        outline: solid 1px #000;
-        outline-offset: -1px;
-        z-index: 999;
-    }
+    
 
     #footer {
         background-color: rgba(255, 255, 255, 1);
@@ -64,7 +65,7 @@ body {
 
     #txt1a {
 
-        clip: rect(0px,300px,55px,0px);
+        clip: rect(0px,300px,60px,0px);
     }
 
     #grad1a {
@@ -72,32 +73,35 @@ body {
         position: absolute;
         top: -583px;
         left: 0;
+        width: 300px;
     }
 
     #txt1b {
 
-        clip: rect(53px, 300px, 102px, 0px);
+        clip: rect(60px, 300px, 102px, 0px);
         // opacity: 0;
     }
 
     #grad1b {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -546px;
+        top: -542px;
         left: 0;
+        width: 300px;
     }
 
     #txt1c {
 
-        clip: rect(111px, 300px, 149px, 0px);
+        clip: rect(102px, 300px, 149px, 0px);
         // opacity: 0;
     }
 
     #grad1c {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -499px;
+        top: -503px;
         left: 0;
+        width: 300px;
     }
 
 }
