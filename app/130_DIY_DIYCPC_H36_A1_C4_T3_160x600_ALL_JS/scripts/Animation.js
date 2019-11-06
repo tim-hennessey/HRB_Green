@@ -16,7 +16,7 @@ app.Animation = (function () {
 	var txt1f = document.getElementById('txt1f');
 	var txt1g = document.getElementById('txt1g');
 	var txt1h = document.getElementById('txt1h');
-	var txt1i = document.getElementById('txt1i');
+	
 
 	var cta = document.getElementById('cta');
 	var cta_txt = document.getElementsByClassName('cta_txt');
@@ -50,8 +50,7 @@ app.Animation = (function () {
 		.from(txt1e, .75, {y:"-=100", force3D:true, ease: Sine.easeOut}, "-=.35")
 		.from(txt1f, .75, {y:"-=100", force3D:true, ease: Sine.easeOut}, "-=.35")
 		.from(txt1g, .75, {y:"-=100", force3D:true, ease: Sine.easeOut}, "-=.35")
-		.from(txt1h, .75, {y:"-=100", force3D:true, ease: Sine.easeOut}, "-=.35")
-		.from(txt1i, .75, {y:"-=100", force3D:true, ease: Sine.easeOut}, "-=.35");
+		.from(txt1h, .75, {y:"-=100", force3D:true, ease: Sine.easeOut}, "-=.35");
 
 		// tl2.to(tl1, 3, {progress:1, force3D:true, ease: Sine.easeInOut}, "+=.5");
 		

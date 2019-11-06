@@ -65,50 +65,99 @@ body {
 
     #txt1a {
 
-        clip: rect(0px,300px,185px,0px);
+        clip: rect(0px,300px,120px,0px);
     }
 
     #grad1a {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -459px;
+        top: -550px;
         left: 0;
+        // opacity: 0;
     }
 
     #txt1b {
 
-        clip: rect(190px, 300px, 241px, 0px);
+        clip: rect(120px, 300px, 165px, 0px);
+        // opacity: 0;
     }
 
     #grad1b {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -420px;
+        top: -492px;
         left: 0;
+        // opacity: 0;
     }
 
     #txt1c {
 
-        clip: rect(242px, 300px, 284px, 0px);
+        clip: rect(165px, 300px, 210px, 0px);
+        // opacity: 0;
     }
 
     #grad1c {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -369px;
+        top: -440px;
         left: 0;
+        // opacity: 0;
     }
 
     #txt1d {
 
-        clip: rect(291px, 300px, 343px, 0px);
+        clip: rect(210px, 300px, 270px, 0px);
+        // opacity: 0;
     }
 
     #grad1d {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -318px;
+        top: -390px;
         left: 0;
+        // opacity: 0;
+    }
+
+    #txt1e {
+
+        clip: rect(270px, 300px, 315px, 0px);
+        // opacity: 0;
+    }
+
+    #grad1e {
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -340px;
+        left: 0;
+        // opacity: 0;
+    }
+
+    #txt1f {
+
+        clip: rect(315px, 300px, 370px, 0px);
+        // opacity: 0;
+    }
+
+    #grad1f {
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -289px;
+        left: 0;
+        // opacity: 0;
+    }
+
+    #txt1g {
+
+        clip: rect(370px, 300px, 600px, 0px);
+        // opacity: 0;
+    }
+
+    #grad1g {
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -238px;
+        left: 0;
+        // opacity: 0;
     }
 
 

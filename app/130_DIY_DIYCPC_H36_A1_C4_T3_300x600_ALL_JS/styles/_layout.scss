@@ -65,74 +65,99 @@ body {
 
     #txt1a {
 
-        clip: rect(0px,300px,134px,0px);
+        clip: rect(0px,300px,125px,0px);
     }
 
     #grad1a {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -504px;
+        top: -540px;
         left: 0;
+        // opacity: 0;
     }
 
     #txt1b {
 
-        clip: rect(130px, 300px, 187px, 0px);
+        clip: rect(125px, 300px, 170px, 0px);
+        // opacity: 0;
     }
 
     #grad1b {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -467px;
+        top: -485px;
         left: 0;
+        // opacity: 0;
     }
 
     #txt1c {
 
-        clip: rect(191px, 300px, 238px, 0px);
+        clip: rect(170px, 300px, 220px, 0px);
+        // opacity: 0;
     }
 
     #grad1c {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -420px;
+        top: -437px;
         left: 0;
+        // opacity: 0;
     }
 
     #txt1d {
 
-        clip: rect(241px, 300px, 278px, 0px);
+        clip: rect(220px, 300px, 265px, 0px);
+        // opacity: 0;
     }
 
     #grad1d {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -372px;
+        top: -390px;
         left: 0;
+        // opacity: 0;
     }
 
     #txt1e {
 
-        clip: rect(285px, 300px, 335px, 0px);
+        clip: rect(265px, 300px, 320px, 0px);
+        // opacity: 0;
     }
 
     #grad1e {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -324px;
+        top: -340px;
         left: 0;
+        // opacity: 0;
     }
 
     #txt1f {
 
-        clip: rect(335px, 300px, 374px, 0px);
+        clip: rect(320px, 300px, 365px, 0px);
+        // opacity: 0;
     }
 
     #grad1f {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -276px;
+        top: -293px;
         left: 0;
+        // opacity: 0;
+    }
+
+    #txt1g {
+
+        clip: rect(365px, 300px, 600px, 0px);
+        // opacity: 0;
+    }
+
+    #grad1g {
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -245px;
+        left: 0;
+        // opacity: 0;
     }
 
 

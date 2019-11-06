@@ -71,7 +71,7 @@ body {
     #grad1a {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -450px;
+        top: -460px;
         left: 0;
         width: 300px;
         // opacity: 0;
@@ -79,14 +79,14 @@ body {
 
     #txt1b {
 
-        clip: rect(187px, 160px, 214px, 0px);
+        clip: rect(183px, 160px, 200px, 0px);
         // opacity: 0;
     }
 
     #grad1b {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -419px;
+        top: -431px;
         left: 0;
         width: 300px;
         // opacity: 0;
@@ -94,14 +94,14 @@ body {
 
     #txt1c {
 
-        clip: rect(214px, 160px, 241px, 0px);
+        clip: rect(200px, 160px, 230px, 0px);
         // opacity: 0;
     }
 
     #grad1c {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -389px;
+        top: -401px;
         left: 0;
         width: 300px;
         // opacity: 0;
@@ -109,14 +109,29 @@ body {
 
     #txt1d {
 
-        clip: rect(250px, 160px, 273px, 0px);
+        clip: rect(230px, 160px, 260px, 0px);
         // opacity: 0;
     }
 
     #grad1d {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -359px;
+        top: -371px;
+        left: 0;
+        width: 300px;
+        // opacity: 0;
+    }
+
+    #txt1e {
+
+        clip: rect(260px, 160px, 290px, 0px);
+        // opacity: 0;
+    }
+
+    #grad1e {
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -341px;
         left: 0;
         width: 300px;
         // opacity: 0;
