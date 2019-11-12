@@ -8,6 +8,7 @@ app.Animation = (function () {
 	var tl = new TimelineMax();
 
 	var txt1a = document.getElementById('txt1a');
+	var txt1b = document.getElementById('txt1b');
 
 	var cta = document.getElementById('cta');
 	var cta_txt = document.getElementsByClassName('cta_txt');
@@ -34,7 +35,8 @@ app.Animation = (function () {
 	// Starts the animation
 	function start() {
 
-		tl.from(txt1a, .75, {y:"-=90", force3D:true, ease: Sine.easeOut});
+		tl.from(txt1a, .75, {y:"-=90", force3D:true, ease: Sine.easeOut})
+		.from(txt1b, .75, {y:"-=90", force3D:true, ease: Sine.easeOut}, "-=.35");
 		
 	}
 
