@@ -67,7 +67,7 @@ body {
 
     #txt1a {
 
-        clip: rect(0px,300px,63px,0px);
+        clip: rect(0px,300px,70px,0px);
     }
 
     #grad1a {
@@ -81,14 +81,14 @@ body {
 
     #txt1b {
 
-        clip: rect(63px, 300px, 88px, 0px);
+        clip: rect(70px, 300px, 100px, 0px);
         // opacity: 0;
     }
 
     #grad1b {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -544px;
+        top: -537px;
         left: 0;
         width: 300px;
         // opacity: 0;
@@ -96,33 +96,20 @@ body {
 
     #txt1c {
 
-        clip: rect(88px, 300px, 110px, 0px);
+        clip: rect(100px, 300px, 250px, 0px);
         // opacity: 0;
     }
 
     #grad1c {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -518px;
+        top: -507px;
         left: 0;
         width: 300px;
         // opacity: 0;
     }
 
-    #txt1d {
-
-        clip: rect(110px, 300px, 250px, 0px);
-        // opacity: 0;
-    }
-
-    #grad1d {
-        // background-color: rgba(255, 255, 255, .5);
-        position: absolute;
-        top: -493px;
-        left: 0;
-        width: 300px;
-        // opacity: 0;
-    }
+    
 
     
 
