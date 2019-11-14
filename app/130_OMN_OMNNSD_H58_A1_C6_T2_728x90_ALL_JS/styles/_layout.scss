@@ -39,7 +39,7 @@ body {
 
     #txt1a {
 
-        clip: rect(0px,728px,45px,0px);
+        clip: rect(0px,728px,90px,0px);
     }
 
     #grad1a {
@@ -51,19 +51,7 @@ body {
         // opacity:0;
     }
 
-    #txt1b {
-
-        clip: rect(45px,728px,90px,0px);
-    }
-
-    #grad1b {
-        width: $banner-width;
-        // background-color: rgba(255, 255, 255, .5);
-        position: absolute;
-        top: -1416px;
-        left: 95px;
-        // opacity:0;
-    }
+    
 
     #footer {
         background-color: rgba(255, 255, 255, 1);
