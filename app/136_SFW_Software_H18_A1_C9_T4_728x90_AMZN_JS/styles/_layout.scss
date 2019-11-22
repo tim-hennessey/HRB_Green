@@ -1,0 +1,98 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+.default {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(0, 0, 0.1px);
+}
+
+#border {
+        display: block;
+        width: $banner-width;
+        height: $banner-height;
+        pointer-events: none;
+        outline: solid 1px #000;
+        outline-offset: -1px;
+        z-index: 999;
+    }
+
+#banner {
+    background: #fff;
+    overflow: hidden;
+    width: $banner-width;
+    height: $banner-height;
+    opacity: 0;
+
+    #button-exit {
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+    }
+
+    #img {
+        position: absolute;
+        position: absolute;
+        top: 0;
+        left: 915px;
+        // opacity:0;
+    }
+
+    
+
+    #txt1a {
+
+        clip: rect(0px,1456px,95px,0px);
+    }
+
+    #grad1a {
+        width: $banner-width;
+        // background-color: rgba(255, 0, 255, .5);
+        position: absolute;
+        top: -2890px;
+        left: 190px;
+        // opacity:0;
+    }
+
+    #txt1b {
+
+        clip: rect(95px,1456px,150px,0px);
+        // opacity: 0;
+    }
+
+    #grad1b {
+        width: $banner-width;
+        // background-color: rgba(255, 0, 255, .5);
+        position: absolute;
+        top: -2830px;
+        left: 190px;
+        // opacity:0;
+    }
+
+    
+
+        #logo {
+            position: absolute;
+            width:140px;
+            bottom: 20px;
+            left: 20px;
+
+        }
+    
+
+    #cta {
+        position: absolute;
+        width:240px;
+        height:64px;
+        bottom: 60px;
+        right: 40px;
+        background-color: rgba(245, 204, 2, 1);
+    }
+    
+
+}
