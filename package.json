@@ -19,7 +19,7 @@
         "grunt-multi": "0.0.5",
         "grunt-newer": "^1.1.0",
         "grunt-postcss": "^0.6.0",
-        "grunt-sass": "^1.0.0",
+        "grunt-sass": "^1.2.1",
         "grunt-spritesmith": "^6.0.1",
         "grunt-svgmin": "^2.0.1",
         "grunt-usemin": "^3.0.0",
@@ -28,5 +28,8 @@
     },
     "engines": {
         "node": ">=0.10.0"
+    },
+    "dependencies": {
+        "sass": "^6.12.1"
     }
 }
