@@ -40,11 +40,11 @@ app.Animation = (function () {
 	// Starts the animation
 	function start() {
 
-		tl1.from(txt1a, .75, {y:"-=105", force3D:true, ease: Sine.easeOut})
-		.from(txt1b, .75, {y:"-=120", force3D:true, ease: Sine.easeOut}, "-=.35")
-		.from(txt1c, .75, {y:"-=120", force3D:true, ease: Sine.easeOut}, "-=.35")
-		.from(txt1d, .75, {y:"-=120", force3D:true, ease: Sine.easeOut}, "-=.35")
-		.from(txt1e, .75, {y:"-=120", force3D:true, ease: Sine.easeOut}, "-=.35");
+		tl1.from(txt1a, .75, {y:"-=125", force3D:true, ease: Sine.easeOut})
+		.from(txt1b, .75, {y:"-=125", force3D:true, ease: Sine.easeOut}, "-=.35")
+		.from(txt1c, .75, {y:"-=125", force3D:true, ease: Sine.easeOut}, "-=.35")
+		.from(txt1d, .75, {y:"-=125", force3D:true, ease: Sine.easeOut}, "-=.35")
+		.from(txt1e, .75, {y:"-=125", force3D:true, ease: Sine.easeOut}, "-=.35");
 
 		// tl2.to(tl1, 3, {progress:1, force3D:true, ease: Sine.easeInOut}, "+=.5");
 		
