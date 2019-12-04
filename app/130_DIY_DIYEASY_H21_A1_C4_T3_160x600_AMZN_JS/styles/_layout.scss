@@ -1,0 +1,189 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+.default {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(0, 0, 0.1px);
+}
+
+#border {
+        display: block;
+        width: $banner-width;
+        height: $banner-height;
+        pointer-events: none;
+        outline: solid 1px #000;
+        outline-offset: -1px;
+        z-index: 999;
+    }
+
+#banner {
+    background: #14AA40;
+    overflow: hidden;
+    width: $banner-width;
+    height: $banner-height;
+    opacity: 0;
+
+    #button-exit {
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+    }
+
+    
+
+    #footer {
+        background-color: rgba(255, 255, 255, 1);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: $banner-width;
+        height:342px;
+
+        #logo {
+            position: absolute;
+            width:120px;
+            bottom: 40px;
+            left: 40px;
+
+        }
+
+        #cta {
+            position: absolute;
+            width:240px;
+            height:64px;
+            bottom: 238px;
+            right: 40px;
+            background-color: rgba(245, 204, 2, 1);
+        }
+    }
+
+
+    
+
+    #txt1a {
+
+        clip: rect(0px,320px,249px,0px);
+    }
+
+    #grad1a {
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -1007px;
+        // top: -154px;
+        left: 0;
+        width: 600px;
+        // opacity: 0;
+    }
+
+    #txt1b {
+
+        clip: rect(254px, 320px, 305px, 0px);
+        // opacity: 0;
+    }
+
+    #grad1b {
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -963px;
+        left: 0;
+        width: 600px;
+        // opacity: 0;
+    }
+
+    #txt1c {
+
+        clip: rect(318px, 320px, 371px, 0px);
+        // opacity: 0;
+    }
+
+    #grad1c {
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -897px;
+        left: 0;
+        width: 600px;
+        // opacity: 0;
+    }
+
+    #txt1d {
+
+        clip: rect(387px, 320px, 437px, 0px);
+        // opacity: 0;
+    }
+
+    #grad1d {
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -831px;
+        left: 0;
+        width: 600px;
+        // opacity: 0;
+    }
+
+    #txt1e {
+
+        clip: rect(452px, 320px, 504px, 0px);
+        // opacity: 0;
+    }
+
+    #grad1e {
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -764px;
+        left: 0;
+        width: 600px;
+        // opacity: 0;
+    }
+
+    #txt1f {
+
+        clip: rect(517px, 320px, 571px, 0px);
+        // opacity: 0;
+    }
+
+    #grad1f {
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -698px;
+        left: 0;
+        width: 600px;
+        // opacity: 0;
+    }
+
+    #txt1g {
+
+        clip: rect(593px, 320px, 637px, 0px);
+        // opacity: 0;
+    }
+
+    #grad1g {
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -632px;
+        left: 0;
+        width: 600px;
+        // opacity: 0;
+    }
+
+    #txt1h {
+
+        clip: rect(651px, 320px, 705px, 0px);
+        // opacity: 0;
+    }
+
+    #grad1h {
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -565px;
+        left: 0;
+        width: 600px;
+        // opacity: 0;
+    }
+
+}

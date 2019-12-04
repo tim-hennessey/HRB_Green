@@ -19,6 +19,7 @@ body {
         outline: solid 1px #000;
         outline-offset: -1px;
         z-index: 999;
+        // transform: scale(.5);
     }
 
 #banner {
@@ -27,6 +28,7 @@ body {
     width: $banner-width;
     height: $banner-height;
     opacity: 0;
+    // transform: scale(.5);
 
     #button-exit {
         background-color: rgba(255, 255, 255, 0);
@@ -43,22 +45,22 @@ body {
         bottom: 0;
         left: 0;
         width: $banner-width;
-        height:230px;
+        height:115px;
 
         #logo {
             position: absolute;
-            width:150px;
-            bottom: 40px;
-            left: 40px;
+            width:75px;
+            bottom: 20px;
+            left: 20px;
 
         }
 
         #cta {
             position: absolute;
-            width:306px;
-            height:70px;
-            bottom: 80px;
-            right: 40px;
+            width:153px;
+            height:35px;
+            bottom: 40px;
+            right: 20px;
             background-color: rgba(245, 204, 2, 1);
         }
     }
@@ -66,41 +68,41 @@ body {
 
     #txt1a {
 
-        clip: rect(0px,600px,450px,0px);
+        clip: rect(0px,300px,225px,0px);
     }
 
     #grad1a {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -880px;
+        top: -440px;
         left: 0;
         // opacity: 0;
     }
 
     #txt1b {
 
-        clip: rect(450px, 600px, 530px, 0px);
+        clip: rect(225px, 300px, 265px, 0px);
         // opacity: 0;
     }
 
     #grad1b {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -785px;
+        top: -393px;
         left: 0;
         // opacity: 0;
     }
 
     #txt1c {
 
-        clip: rect(530px, 600px, 620px, 0px);
+        clip: rect(265px, 300px, 310px, 0px);
         // opacity: 0;
     }
 
     #grad1c {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -690px;
+        top: -345px;
         left: 0;
         // opacity: 0;
     }

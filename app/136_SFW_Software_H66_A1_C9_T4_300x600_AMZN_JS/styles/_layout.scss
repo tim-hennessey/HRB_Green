@@ -19,6 +19,7 @@ body {
         outline: solid 1px #000;
         outline-offset: -1px;
         z-index: 999;
+        // transform: scale(.5);
     }
 
 #banner {
@@ -27,6 +28,7 @@ body {
     width: $banner-width;
     height: $banner-height;
     opacity: 0;
+    // transform: scale(.5);
 
     #button-exit {
         background-color: rgba(255, 255, 255, 0);
@@ -41,18 +43,18 @@ body {
 
         #logo {
             position: absolute;
-            width:150px;
-            bottom: 40px;
-            left: 40px;
+            width:75px;
+            bottom: 20px;
+            left: 20px;
 
         }
 
         #cta {
             position: absolute;
-            width:266px;
-            height:71px;
-            bottom: 80px;
-            right: 40px;
+            width:133px;
+            height:35px;
+            bottom: 40px;
+            right: 20px;
             background-color: rgba(245, 204, 2, 1);
         }
     
@@ -60,48 +62,48 @@ body {
 
     #img {
         position: absolute;
-        top: 545px;
+        top: 273px;
         left: 0;
         // opacity: 0;
     }
 
     #txt1a {
 
-        clip: rect(0px,600px,240px,0px);
+        clip: rect(0px,300px,120px,0px);
     }
 
     #grad1a {
         // background-color: rgba(255, 0, 0, .5);
         position: absolute;
-        top: -1070px;
+        top: -535px;
         left: 0;
         // opacity: 0;
     }
 
     #txt1b {
 
-        clip: rect(240px, 600px, 325px, 0px);
+        clip: rect(120px, 300px, 162px, 0px);
         // opacity: 0;
     }
 
     #grad1b {
         // background-color: rgba(255, 0, 0, .5);
         position: absolute;
-        top: -970px;
+        top: -485px;
         left: 0;
         // opacity: 0;
     }
 
     #txt1c {
 
-        clip: rect(325px, 600px, 415px, 0px);
+        clip: rect(162px, 300px, 208px, 0px);
         // opacity: 0;
     }
 
     #grad1c {
         // background-color: rgba(255, 0, 0, .5);
         position: absolute;
-        top: -882px;
+        top: -441px;
         left: 0;
         // opacity: 0;
     }

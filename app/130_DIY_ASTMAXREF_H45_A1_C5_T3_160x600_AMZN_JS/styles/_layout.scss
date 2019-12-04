@@ -19,6 +19,7 @@ body {
         outline: solid 1px #000;
         outline-offset: -1px;
         z-index: 999;
+        // transform: scale(.5);
     }
 
 #banner {
@@ -27,6 +28,7 @@ body {
     width: $banner-width;
     height: $banner-height;
     opacity: 0;
+    // transform: scale(.5);
 
     #button-exit {
         background-color: rgba(255, 255, 255, 0);
@@ -43,22 +45,22 @@ body {
         bottom: 0;
         left: 0;
         width: $banner-width;
-        height:342px;
+        height:171px;
 
         #logo {
             position: absolute;
-            width:120px;
-            bottom: 40px;
-            left: 40px;
+            width:60px;
+            bottom: 20px;
+            left: 20px;
 
         }
 
         #cta {
             position: absolute;
-            width:240px;
-            height:64px;
-            bottom: 238px;
-            right: 40px;
+            width:120px;
+            height:32px;
+            bottom: 119px;
+            right: 20px;
             background-color: rgba(245, 204, 2, 1);
         }
     }
@@ -68,45 +70,45 @@ body {
 
     #txt1a {
 
-        clip: rect(0px,320px,430px,0px);
+        clip: rect(0px,160px,215px,0px);
     }
 
     #grad1a {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -850px;
+        top: -425px;
         left: 0;
-        width: 600px;
+        width: 300px;
         // opacity: 0;
     }
 
     #txt1b {
 
-        clip: rect(430px, 320px, 480px, 0px);
+        clip: rect(215px, 160px, 240px, 0px);
         // opacity: 0;
     }
 
     #grad1b {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -795px;
+        top: -397px;
         left: 0;
-        width: 600px;
+        width: 300px;
         // opacity: 0;
     }
 
     #txt1c {
 
-        clip: rect(480px, 320px, 600px, 0px);
+        clip: rect(240px, 160px, 300px, 0px);
         // opacity: 0;
     }
 
     #grad1c {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -738px;
+        top: -368px;
         left: 0;
-        width: 600px;
+        width: 300px;
         // opacity: 0;
     }
 

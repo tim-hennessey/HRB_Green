@@ -43,22 +43,22 @@ body {
         bottom: 0;
         left: 0;
         width: $banner-width;
-        height:342px;
+        height:171px;
 
         #logo {
             position: absolute;
-            width:120px;
-            bottom: 40px;
-            left: 40px;
+            width:60px;
+            bottom: 20px;
+            left: 20px;
 
         }
 
         #cta {
             position: absolute;
-            width:240px;
-            height:64px;
-            bottom: 238px;
-            right: 40px;
+            width:120px;
+            height:32px;
+            bottom: 119px;
+            right: 20px;
             background-color: rgba(245, 204, 2, 1);
         }
     }
@@ -68,60 +68,60 @@ body {
 
     #txt1a {
 
-        clip: rect(0px,320px,390px,0px);
+        clip: rect(0px,160px,195px,0px);
     }
 
     #grad1a {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -875px;
+        top: -440px;
         left: 0;
-        width: 600px;
+        width: 300px;
         // opacity: 0;
     }
 
     #txt1b {
 
-        clip: rect(390px, 320px, 450px, 0px);
+        clip: rect(195px, 160px, 225px, 0px);
         // opacity: 0;
     }
 
     #grad1b {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -825px;
+        top: -412px;
         left: 0;
-        width: 600px;
+        width: 300px;
         // opacity: 0;
     }
 
     #txt1c {
 
-        clip: rect(450px, 320px, 500px, 0px);
+        clip: rect(225px, 160px, 250px, 0px);
         // opacity: 0;
     }
 
     #grad1c {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -768px;
+        top: -384px;
         left: 0;
-        width: 600px;
+        width: 300px;
         // opacity: 0;
     }
 
     #txt1d {
 
-        clip: rect(500px, 320px, 575px, 0px);
+        clip: rect(250px, 160px, 288px, 0px);
         // opacity: 0;
     }
 
     #grad1d {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -713px;
+        top: -356px;
         left: 0;
-        width: 600px;
+        width: 300px;
         // opacity: 0;
     }
 

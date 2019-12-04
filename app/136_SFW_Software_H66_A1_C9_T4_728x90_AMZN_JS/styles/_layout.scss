@@ -19,6 +19,7 @@ body {
         outline: solid 1px #000;
         outline-offset: -1px;
         z-index: 999;
+        // transform: scale(.5);
     }
 
 #banner {
@@ -27,6 +28,7 @@ body {
     width: $banner-width;
     height: $banner-height;
     opacity: 0;
+    // transform: scale(.5);
 
     #button-exit {
         background-color: rgba(255, 255, 255, 0);
@@ -39,7 +41,7 @@ body {
         position: absolute;
         position: absolute;
         top: 0;
-        left: 915px;
+        left: 457px;
         // opacity:0;
     }
 
@@ -47,21 +49,21 @@ body {
 
     #txt1a {
 
-        clip: rect(0px,1456px,84px,0px);
+        clip: rect(0px,728px,42px,0px);
     }
 
     #grad1a {
         width: $banner-width;
         // background-color: rgba(255, 0, 255, .5);
         position: absolute;
-        top: -2890px;
-        left: 190px;
+        top: -1445px;
+        left: 95px;
         // opacity:0;
     }
 
     #txt1b {
 
-        clip: rect(84px,1456px,150px,0px);
+        clip: rect(42px,728px,75px,0px);
         // opacity: 0;
     }
 
@@ -69,8 +71,8 @@ body {
         width: $banner-width;
         // background-color: rgba(255, 0, 255, .5);
         position: absolute;
-        top: -2830px;
-        left: 190px;
+        top: -1415px;
+        left: 95px;
         // opacity:0;
     }
 
@@ -78,19 +80,19 @@ body {
 
         #logo {
             position: absolute;
-            width:140px;
-            bottom: 20px;
-            left: 20px;
+            width:70px;
+            bottom: 10px;
+            left: 10px;
 
         }
     
 
     #cta {
         position: absolute;
-        width:240px;
-        height:64px;
-        bottom: 60px;
-        right: 40px;
+        width:120px;
+        height:32px;
+        bottom: 30px;
+        right: 20px;
         background-color: rgba(245, 204, 2, 1);
     }
     
