@@ -43,22 +43,22 @@ body {
         bottom: 0;
         left: 0;
         width: $banner-width;
-        height:230px;
+        height:115px;
 
         #logo {
             position: absolute;
-            width:150px;
-            bottom: 40px;
-            left: 40px;
+            width:75px;
+            bottom: 20px;
+            left: 20px;
 
         }
 
         #cta {
             position: absolute;
-            width:306px;
-            height:70px;
-            bottom: 80px;
-            right: 40px;
+            width:153px;
+            height:35px;
+            bottom: 40px;
+            right: 20px;
             background-color: rgba(245, 204, 2, 1);
         }
     }
@@ -66,97 +66,97 @@ body {
 
     #txt1a {
 
-        clip: rect(0px,600px,180px,0px);
+        clip: rect(0px,300px,90px,0px);
     }
 
     #grad1a {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -1128px;
+        top: -564px;
         left: 0;
         // opacity: 0;
     }
 
     #txt1b {
 
-        clip: rect(185px, 600px, 284px, 0px);
+        clip: rect(90px, 300px, 142px, 0px);
         // opacity: 0;
     }
 
     #grad1b {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -1043px;
+        top: -522px;
         left: 0;
         // opacity: 0;
     }
 
     #txt1c {
 
-        clip: rect(304px, 600px, 405px, 0px);
+        clip: rect(142px, 300px, 203px, 0px);
         // opacity: 0;
     }
 
     #grad1c {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -921px;
+        top: -470px;
         left: 0;
         // opacity: 0;
     }
 
     #txt1d {
 
-        clip: rect(426px, 600px, 527px, 0px);
+        clip: rect(213px, 300px, 264px, 0px);
         // opacity: 0;
     }
 
     #grad1d {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -801px;
+        top: -400px;
         left: 0;
         // opacity: 0;
     }
 
     #txt1e {
 
-        clip: rect(549px, 600px, 647px, 0px);
+        clip: rect(264px, 300px, 323px, 0px);
         // opacity: 0;
     }
 
     #grad1e {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -679px;
+        top: -340px;
         left: 0;
         // opacity: 0;
     }
 
     #txt1f {
 
-        clip: rect(684px, 600px, 769px, 0px);
+        clip: rect(323px, 300px, 385px, 0px);
         // opacity: 0;
     }
 
     #grad1f {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -558px;
+        top: -280px;
         left: 0;
         // opacity: 0;
     }
 
     #txt1g {
 
-        clip: rect(792px, 600px, 888px, 0px);
+        clip: rect(385px, 300px, 444px, 0px);
         // opacity: 0;
     }
 
     #grad1g {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -437px;
+        top: -218px;
         left: 0;
         // opacity: 0;
     }
