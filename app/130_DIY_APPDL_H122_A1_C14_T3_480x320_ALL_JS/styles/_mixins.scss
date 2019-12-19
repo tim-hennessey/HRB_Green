@@ -1,0 +1,8 @@
+$banner-width: 480px;
+$banner-height: 320px;
+
+@mixin default-position {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
