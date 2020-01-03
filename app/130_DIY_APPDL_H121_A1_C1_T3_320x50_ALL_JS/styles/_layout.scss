@@ -1,0 +1,90 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+.default {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(0, 0, 0.1px);
+}
+
+#border {
+    display: block;
+    width: $banner-width;
+    height: $banner-height;
+    pointer-events: none;
+    outline: solid 1px #000;
+    outline-offset: -1px;
+    z-index: 999;
+    position: absolute;
+}
+
+#banner {
+    background: #14AA40;
+    overflow: hidden;
+    width: $banner-width;
+    height: $banner-height;
+    opacity: 0;
+
+    #button-exit {
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+    }
+
+    
+
+    #footer {
+        background-color: rgba(255, 255, 255, 1);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 50px;
+        height:50px;
+
+        #logo {
+            position: absolute;
+            width:40px;
+            bottom: 5px;
+            left: 5px;
+
+        }
+    }
+
+
+    #txt1a {
+
+        clip: rect(0px,320px,27px,0px);
+    }
+
+    #grad1a {
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -597px;
+        left: 0;
+        width: 300px;
+        // opacity: 0;
+    }
+
+    #txt1b {
+
+        clip: rect(27px, 320px, 50px, 0px);
+        // opacity: 0;
+    }
+
+    #grad1b {
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -577px;
+        left: 0;
+        width: 300px;
+        // opacity: 0;
+    }
+
+    
+
+}
