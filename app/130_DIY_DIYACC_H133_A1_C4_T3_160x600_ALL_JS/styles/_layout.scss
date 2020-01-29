@@ -65,13 +65,13 @@ body {
 
     #txt1a {
 
-        clip: rect(0px,160px,163px,0px);
+        clip: rect(0px,160px,185px,0px);
     }
 
     #grad1a {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -456px;
+        top: -453px;
         left: 0;
         width: 300px;
         // opacity: 0;
@@ -79,14 +79,14 @@ body {
 
     #txt1b {
 
-        clip: rect(163px, 160px, 190px, 0px);
+        clip: rect(185px, 160px, 207px, 0px);
         // opacity: 0;
     }
 
     #grad1b {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -439px;
+        top: -423px;
         left: 0;
         width: 300px;
         // opacity: 0;
@@ -94,14 +94,14 @@ body {
 
     #txt1c {
 
-        clip: rect(190px, 160px, 215px, 0px);
+        clip: rect(207px, 160px, 229px, 0px);
         // opacity: 0;
     }
 
     #grad1c {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -414px;
+        top: -400px;
         left: 0;
         width: 300px;
         // opacity: 0;
@@ -109,14 +109,14 @@ body {
 
     #txt1d {
 
-        clip: rect(215px, 160px, 240px, 0px);
+        clip: rect(229px, 160px, 251px, 0px);
         // opacity: 0;
     }
 
     #grad1d {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -389px;
+        top: -377px;
         left: 0;
         width: 300px;
         // opacity: 0;
@@ -124,14 +124,14 @@ body {
 
     #txt1e {
 
-        clip: rect(240px, 160px, 265px, 0px);
+        clip: rect(251px, 160px, 276px, 0px);
         // opacity: 0;
     }
 
     #grad1e {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -365px;
+        top: -354px;
         left: 0;
         width: 300px;
         // opacity: 0;
@@ -139,8 +139,8 @@ body {
 
     #txt1f {
 
-        clip: rect(265px, 160px, 290px, 0px);
-        // opacity: 0;
+        clip: rect(276px, 160px, 600px, 0px);
+        opacity: 0;
     }
 
     #grad1f {
@@ -149,12 +149,12 @@ body {
         top: -339px;
         left: 0;
         width: 300px;
-        // opacity: 0;
+        opacity: 0;
     }
 
     #txt1g {
 
-        clip: rect(390px, 160px, 600px, 0px);
+        clip: rect(276px, 160px, 600px, 0px);
         // opacity: 0;
     }
 
