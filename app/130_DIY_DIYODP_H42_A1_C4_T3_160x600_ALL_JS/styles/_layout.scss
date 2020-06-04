@@ -66,14 +66,13 @@ body {
 
     #txt1a {
 
-        clip: rect(0px,160px,152px,0px);
+        clip: rect(0px,160px,195px,0px);
     }
 
     #grad1a {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -490px;
-        // top: -154px;
+        top: -453px;
         left: 0;
         width: 300px;
         // opacity: 0;
@@ -81,14 +80,14 @@ body {
 
     #txt1b {
 
-        clip: rect(152px, 160px, 180px, 0px);
+        clip: rect(195px, 160px, 230px, 0px);
         // opacity: 0;
     }
 
     #grad1b {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -457px;
+        top: -417px;
         left: 0;
         width: 300px;
         // opacity: 0;
@@ -96,77 +95,77 @@ body {
 
     #txt1c {
 
-        clip: rect(180px, 160px, 208px, 0px);
+        clip: rect(230px, 160px, 500px, 0px);
         // opacity: 0;
     }
 
     #grad1c {
         // background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        top: -429px;
+        top: -381px;
         left: 0;
         width: 300px;
         // opacity: 0;
     }
 
-    #txt1d {
+    // #txt1d {
 
-        clip: rect(208px, 160px, 236px, 0px);
-        // opacity: 0;
-    }
+    //     clip: rect(208px, 160px, 236px, 0px);
+    //     // opacity: 0;
+    // }
 
-    #grad1d {
-        // background-color: rgba(255, 255, 255, .5);
-        position: absolute;
-        top: -401px;
-        left: 0;
-        width: 300px;
-        // opacity: 0;
-    }
+    // #grad1d {
+    //     // background-color: rgba(255, 255, 255, .5);
+    //     position: absolute;
+    //     top: -401px;
+    //     left: 0;
+    //     width: 300px;
+    //     // opacity: 0;
+    // }
 
-    #txt1e {
+    // #txt1e {
 
-        clip: rect(236px, 160px, 264px, 0px);
-        // opacity: 0;
-    }
+    //     clip: rect(236px, 160px, 264px, 0px);
+    //     // opacity: 0;
+    // }
 
-    #grad1e {
-        // background-color: rgba(255, 255, 255, .5);
-        position: absolute;
-        top: -373px;
-        left: 0;
-        width: 300px;
-        // opacity: 0;
-    }
+    // #grad1e {
+    //     // background-color: rgba(255, 255, 255, .5);
+    //     position: absolute;
+    //     top: -373px;
+    //     left: 0;
+    //     width: 300px;
+    //     // opacity: 0;
+    // }
 
-    #txt1f {
+    // #txt1f {
 
-        clip: rect(264px, 160px, 290px, 0px);
-        // opacity: 0;
-    }
+    //     clip: rect(264px, 160px, 290px, 0px);
+    //     // opacity: 0;
+    // }
 
-    #grad1f {
-        // background-color: rgba(255, 255, 255, .5);
-        position: absolute;
-        top: -345px;
-        left: 0;
-        width: 300px;
-        // opacity: 0;
-    }
+    // #grad1f {
+    //     // background-color: rgba(255, 255, 255, .5);
+    //     position: absolute;
+    //     top: -345px;
+    //     left: 0;
+    //     width: 300px;
+    //     // opacity: 0;
+    // }
 
-    #txt1g {
+    // #txt1g {
 
-        clip: rect(290px, 160px, 315px, 0px);
-        // opacity: 0;
-    }
+    //     clip: rect(290px, 160px, 315px, 0px);
+    //     // opacity: 0;
+    // }
 
-    #grad1g {
-        // background-color: rgba(255, 255, 255, .5);
-        position: absolute;
-        top: -318px;
-        left: 0;
-        width: 300px;
-        // opacity: 0;
-    }
+    // #grad1g {
+    //     // background-color: rgba(255, 255, 255, .5);
+    //     position: absolute;
+    //     top: -318px;
+    //     left: 0;
+    //     width: 300px;
+    //     // opacity: 0;
+    // }
 
 }
